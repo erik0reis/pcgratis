@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Grátis</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class="title">PC Grátis</h1>
+    <div class="title" style="font-size: 40px;"><a href="https://pcgratis.ga/" class="page">Menu</a> <a href="http://server.pcgratis.ga:342/" class="page">Criar PC</a> <a href="http://server.pcgratis.ga:3/" class="page">Acesso WEB ao PC</a> <a href="https://pcgratis.ga/howto.html" class="page">Como acessar o PC</a><br/></div>
 
+
+    <h1 style="font-size: 50; text-align: center;">Data:</h1>
+    <div class="box" id="daypicker" style="text-align: center;">
+
+    </div>
+
+    <h1 style="font-size: 50; text-align: center;">Hora:</h1>
+    <div class="box" style="text-align: center;" id="timepicker">
+
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <div class="box" id="pcinformation" style="margin-left: 0%; margin-right: 0%;">
+        <h1 style="font-size: 40px; text-align: center;">&nbsp;Complete as informações para Criar o PC:</h1>
+        <span style="text-align: left; font-size: 15px;">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;horário: </b><span id="chooseddateandtime">--</span> <br/>
+            <b><span style="font-size: 18px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;senha: </b></span><input id="pcpassword" style="font-size: 14px;" type="text" placeholder="crie uma senha para o pc" maxlength="16"> <br/><br/>
+        </span>
+        <a href="https://pcgratis.ga/howto.html" style="margin-right: auto; margin-left: 35%; font-size: 25px;" target="_blank">Como acessar o pc?</a>
+        <br/>
+        <button id="createpc" disabled style="font-size: 40px; margin-right: auto; margin-left: 45%;">Criar&nbsp;PC</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.socket.io/4.5.3/socket.io.min.js" integrity="sha384-WPFUvHkB1aHA5TDSZi6xtDgkF0wXJcIIxXhC6h8OT8EH3fC5PWro5pWJ1THjcfEi" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
