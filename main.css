@@ -30,7 +30,8 @@
     color: red;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 45%;
+    white-space: nowrap;
 }
 
 .page:hover {
@@ -40,5 +41,6 @@
     color: yellow;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: underline;
-    font-size: 38px;
+    font-size: 60%;
+    white-space: nowrap;
 }
