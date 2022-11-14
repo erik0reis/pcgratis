@@ -1,4 +1,5 @@
 var socket = io("http://187.105.108.61:342", {
+  transport: ['websocket'],
   withCredentials: true
 });
 
