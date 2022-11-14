@@ -1,4 +1,7 @@
-var socket = io("http://187.105.108.61:342");
+var socket = io("http://187.105.108.61:342", {
+  // WARNING: in that case, there is no fallback to long-polling
+  transports: [ "websocket" ]
+});
 
 var daypicker = document.getElementById('daypicker');
 var timepicker = document.getElementById('timepicker');
